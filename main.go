@@ -3,16 +3,18 @@ package main
 import (
 	"flag"
 	"fmt"
+	"io"
+	"log"
+	"os"
+
 	"github.com/go-sql-driver/mysql"
+
 	"github.com/jorgerojas26/lazysql/app"
 	"github.com/jorgerojas26/lazysql/components"
 	"github.com/jorgerojas26/lazysql/drivers"
 	"github.com/jorgerojas26/lazysql/helpers"
 	"github.com/jorgerojas26/lazysql/helpers/logger"
 	"github.com/jorgerojas26/lazysql/models"
-	"io"
-	"log"
-	"os"
 )
 
 var version = "dev"
